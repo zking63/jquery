@@ -1,0 +1,164 @@
+*{
+    border: 1px dotted red; 
+}
+
+#board{
+    width: 980px;
+    height: 900px;
+    background-color: black;
+    display: inline-block;
+}
+
+#clickalert{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#clickhide{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#clickshow{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.toggle1{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#clickslidedown{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ghosty{
+    width: 130px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#clickslideup{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#clickslidetog{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#clickfadein{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.addclass{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.before {
+    height: 100px;
+    width: 100px;
+}
+
+.addclass2{
+    background-color: rgb(42, 150, 0);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ghosty2{
+    width: 130px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ghosty3{
+    width: 130px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ghosty4{
+    width: 130px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#ghosty5{
+    width: 130px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.toggle2{
+    background-color: rgb(150, 0, 0);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#board h1{
+    color: white;
+    margin: 30px 60px;
+    vertical-align: middle;
+}

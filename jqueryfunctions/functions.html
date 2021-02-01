@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jqueryfunctions</title>
+        <link rel="stylesheet" type="text/css" href="functions.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">    
+            $(document).ready(function(){
+                $('h2').hide();
+                $('#ghosty').hide();
+                $( "#clickalert" ).click(function() {
+                    alert( "click for alert .click() called." );
+                });
+                $( "#clickhide" ).click(function() {
+                    $('#clickhide h1').hide();
+                });
+                $( '#clickshow' ).click(function() {
+                    $('#clickshow h2').show();
+                });
+                $( "#clickslidedown" ).click(function() {
+                    $( "#ghosty" ).slideDown( "slow", function() {
+                    });
+                });
+                $( "#clickslideup" ).click(function() {
+                    $( "#ghosty2" ).slideUp( "slow", function() {
+                    });
+                });
+                $( "#clickslidetog" ).click(function() {
+                    $( "#ghosty3" ).slideToggle( "slow", function() {
+                    });
+                });
+                $( "#clickfadein" ).click(function() {
+                    $( "#ghosty4" ).fadeOut( "slow", function() {
+                        $( "#clickfadein h1" ).text("Click to fade in");
+                        $( "#clickfadein" ).click(function() {
+                            $( "#ghosty4" ).fadeIn( "slow", function() {
+                                return;
+                            });
+                        });
+                    });
+                });
+                $( ".addclass" ).click(function() {
+                    $( ".addclass h1" ).removeClass( "addclass" ).addClass( "addclass2" )
+                    });
+                });
+                $('.before').click(function(){
+                    $("#before").before("<h1>woot</h1>")
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div id="board">
+            <div class="row">
+                <div id="clickalert"><h1>Click to alert</h1></div>
+                <div id="clickhide"><h1>Click to hide</h1></div>
+                <div id="clickshow"><h1>Click to show</h1><h2>showing this!</h2></div>
+                <div id="clickslidetog"><h1>Click to slide toggle</h1><img id="ghosty3" src="ghosty.png" alt="ghosty"></div>
+            </div>
+            <div class="row">
+                <div class="toggle1"><h1>Click to toggle</h1></div>
+                <div class="toggle2"><h1>Click to hide</h1></div>
+                <div id="clickslidedown"><h1>Click to slide</h1><img id="ghosty" src="ghosty.png" alt="ghosty"></div>
+                <div id="clickslideup"><h1>Click to slide</h1><img id="ghosty2" src="ghosty.png" alt="ghosty"></div>
+            </div>
+            <div class="row">
+                <div class="toggle1"><h1>Click to toggle</h1></div>
+                <div class="box">
+                    <p>Adds something before the element</p>
+                    <p id="before">An h1 tag will be added before me</p>
+                    <button class="before">Click to add an element before the p tag</button>
+                </div>
+                <div id="clickfadein"><h1>Click to fade out</h1><img id="ghosty4" src="ghosty.png" alt="ghosty"></div>
+                <div class="addclass"><h1>Click to add class</h1></div>
+            </div>
+        </div>
+    </body>
+</html>
