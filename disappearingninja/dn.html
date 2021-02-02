@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jeopardy</title>
+        <link rel="stylesheet" type="text/css" href="dn.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".box img").click(function(){
+                    $(this).hide()
+                })
+                $("#restore").click(function(){
+                    $(".box img").show()
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button id="restore">Restore</button>
+        <div class="row">
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+        </div>
+        <div class="row">
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+            <div class="box"><img src="ninja.png" alt="ninja"></div>
+        </div>
+    </body>
+</html>
