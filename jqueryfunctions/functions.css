@@ -18,6 +18,15 @@
     vertical-align: middle;
 }
 
+.append{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #clickhide{
     background-color: rgb(0, 51, 150);
     width: 230px;
@@ -88,7 +97,24 @@
     vertical-align: middle;
 }
 
+.html{
+    background-color: rgb(0, 51, 150);
+    width: 230px;
+    height: 310px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .addclass{
+    width: 130px;
+    height: auto;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.attr{
     background-color: rgb(0, 51, 150);
     width: 230px;
     height: 310px;
@@ -157,8 +183,43 @@
     vertical-align: middle;
 }
 
+.val{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.val2{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.before{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.after{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
 #board h1{
     color: white;
     margin: 30px 60px;
+    vertical-align: middle;
+}
+
+#html{
+    color: white;
+    margin: 20px 10px;
+    vertical-align: middle;
+}
+
+.green{
+    color: green;
+    margin: 20px 10px;
     vertical-align: middle;
 }
